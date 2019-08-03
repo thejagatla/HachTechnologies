@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width" />
+    
+    <title>Hach-Technologies</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+<script src="assets/js/app.js"></script>
+  </head>
+  <body ng-app="HachTech">
+    
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="assets/images/hach.png" class="img-responsive logo"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#/!">Home</a></li>
+            <li><a href="#!about">About Us</a></li>
+            <li><a href="#!training">Training</a></li>
+            <li><a href="#!consultant">Consultant</a></li>
+            <li><a href="#!contact">Contact Us</a></li>
+        </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+
+  <div ng-view></div>
+
+<footer>
+  <div class="container text-center">
+    <div class="col-md-4 col-xs-12 hach-addr">
+      <h2> Get In Touch</h2>
+      <p class="map-padng"><i class="fa fa-map-marker" aria-hidden="true"></i>  Hach Technologies <br>
+          201 CIRCLE DRIVE NORTH <br>
+          PISCATAWAY,<br>
+          NEW JERSEY,<br> </p>
+     <a href="tel: 732-322-0841"> <p><i class="fa fa-phone" aria-hidden="true"></i> 732-322-0841</p></a>
+        <a href="mailto:info@hachtechnologies.com"> <p><i class="fa fa-envelope-o" aria-hidden="true"></i> info@hachtechnologies.com</p></a>
+
+    </div>
+    <div class="col-md-4 col-xs-12">
+      <h2> Quick Links</h2>
+
+      <ul class="footer links" style="list-style:none">
+            <li><a href="#/!">Home</a></li>
+            <li><a href="#!about">About Us</a></li>
+            <li><a href="#!training">Training</a></li>
+            <li><a href="#!consultant">Consultant</a></li>
+            <li><a href="#!contact">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4 col-xs-12">
+      <div id="social">
+			<a class="facebookBtn smGlobalBtn" href="#" ></a>
+			<a class="twitterBtn smGlobalBtn" href="#" ></a>
+			<a class="googleplusBtn smGlobalBtn" href="#" ></a>
+			<a class="linkedinBtn smGlobalBtn" href="#" ></a>
+			
+		</div>
+    </div>
+
+  </div>
+     <div class="hash-copyright">
+    <hr class="line">
+    <p class="text-center" style="color:white"> © 2017 Hach Technologies. All rights reserved </p>
+  </div>
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery.min.js"></script> 
+   <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+ $(document).ready(function() {
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pause: true,
+    interval: 4000,
+  });
+  $('#myCarousel').carousel({
+  interval: 40000
+});
+
+
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,377 @@
+body{
+font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+}
+.navbar-inverse {
+    background-color: white;
+    border-color: #035BAF;
+    box-shadow: 0px 2px 6px #035BAF;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #035BAF;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #035BAF;
+}
+.navbar {
+    
+    min-height: 72px;
+    margin-bottom: 20px;
+   
+}
+.logo{
+    font-weight: bold;
+    color: #035BAF;
+    margin-top: 2px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #035BAF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #035BAF;
+    border: 1px solid #035BAF;
+    border-radius: 10px;
+   
+}
+.navbar-right {
+    float: right!important;
+    margin-right: 25px;
+}
+
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/home-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+    margin-top: 72px;
+}
+.bg-overlay-tr {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 332px;
+    padding-top: 30px;
+    margin-top: 74px;
+}
+.bg-overlay-about {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/aboutus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 332px;
+    padding-top: 30px;
+    margin-top: 74px;
+}
+.bg-overlay-training {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/training.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 332px;
+    padding-top: 30px;
+    margin-top: 74px;
+}
+.bg-overlay-consultant {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/c3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 332px;
+    padding-top: 30px;
+    margin-top: 74px;
+}
+footer{
+    background-image: url(../images/banner4.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+       background-position: center center;
+           padding-bottom: 1px;
+}
+  .text{
+  padding: 5% 1%;
+    }
+ .text p{
+    color: gray;
+}
+.aboutus p{
+    color: #333333;
+   font-size: 15px;
+}
+.hach-about{
+    padding-bottom: 20px;
+}
+
+.training{
+    margin-top: 50px;
+}
+.training p{
+   color: #333333;
+    font-size: 15px;
+
+}
+.hach-tr-content{
+    margin-top: -22px;
+
+
+}
+.hach-tr-content p{
+    color: #333333;
+    font-size: 15px;
+}
+   .title-pad{
+       padding-top: 90px;
+   }   
+  .links li a{
+       color: white;
+       display:inline;
+   
+  } 
+    .hach-tr{
+        padding: 50px;
+    } 
+    .links{
+      padding-top: 10px;
+    }
+    .map-padng{
+        padding-top: 10px; 
+    }
+
+    footer h2,p{
+        color: white;
+    }
+   .hach-contact p{
+     color:#035BAF;
+     margin-top: 12px;
+   } 
+.hach-contact{
+    margin-top: 100px;
+}
+.logo{
+    height: 80px;
+    width: 160px;
+    margin-top: -19px;
+}
+.mapouter{
+    margin-bottom: 14px;
+}
+address{
+    margin-top: 10px;
+    margin-left: -14px;
+}
+#social {
+  margin: 60px -110px;
+    float: right;
+}
+.line{
+  margin-top: 19px;
+    margin-bottom: 28px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+    
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+      border-color: #e64522;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
+    /* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -78px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -50px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+.hash-client{
+    height: auto;
+    width: 70%;
+    margin-left: 16%;
+}
+#h-clients{
+    margin-top: 4%;
+}
+.h-padng{
+    padding: 40px;
+}
+#hash-test{
+    background-color: darkgray;
+}
+.mapouter{
+    overflow:hidden;height:500px;width:600px;
+}
+.gmap_canvas {
+    background:none!important;
+    height:500px;
+    width:600px;
+}
+iframe{
+    width:600px;
+    height: 375px;
+}
+.hach-consult{
+    margin-top: 30px;
+}
+.hach-consult li{
+    font-size: 16px;
+    padding: 8px;
+}
+.hach-conheading{
+    color: #035BAF;
+    text-align: center;
+    margin-top: -9px;
+    margin-bottom: 20px;
+}
+.hach-consult2 li{
+    font-size: 16px;
+    padding: 8px;
+}
+.consult-assist p{
+    color: #333333;
+    font-size: 15px;
+}
+
+
+
+
+
